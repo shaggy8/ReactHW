@@ -1,0 +1,73 @@
+[{
+	"id": "notebook",
+	"photo": "N",
+	"productName": "Notebook",
+	"price": 13000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente itaque eligendi incidunt ipsum, molestias dolorem pariatur. Voluptatem unde accusamus minima, expedita nobis officiis odit omnis debitis consequuntur consectetur id."
+},{
+	"id": "tablet",
+	"productName": "Tablet",
+	"photo": "T",
+	"price": 8000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus reprehenderit tenetur obcaecati, repellat sit, atque consequuntur architecto quod sapiente quaerat ducimus voluptate labore. Corrupti, cum ea numquam, assumenda atque officiis."
+},{
+	"id": "mouse",
+	"productName": "Mouse",
+	"photo": "M",
+	"price": 560,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus est asperiores dolorem deleniti porro illum et fuga nesciunt ipsum reprehenderit, nisi minima exercitationem eaque iste, aut ipsam molestias. Tempora, at!"
+},{
+	"id": "pocketbook",
+	"productName": "Pocket Book",
+	"photo": "B",
+	"price": 2600,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laboriosam perferendis et dignissimos, enim minima, quas tempore dolorum possimus eligendi nesciunt. Deserunt quam quasi voluptatum. Repellat reiciendis dolor sapiente aliquid."
+},{
+	"id": "smartphone",
+	"productName": "Smartphone",
+	"photo": "S",
+	"price": 23000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae praesentium, harum molestiae doloribus impedit odit vitae quod voluptas rerum animi consequatur, veritatis tenetur, alias quas quisquam repellendus! Suscipit, architecto similique."
+},{
+	"id": "tv",
+	"productName": "TV",
+	"photo": "T",
+	"price": 5000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, itaque similique molestiae libero aliquam doloribus cupiditate? Ipsum eaque reiciendis aliquam totam, veritatis est, quam pariatur, corporis enim culpa earum. Incidunt."
+},{
+	"id": "camera",
+	"productName": "Camera",
+	"photo": "C",
+	"price": 8000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit inventore veniam aperiam quas ipsum, rerum voluptatibus est quasi architecto quam, illo nobis ducimus nam. Cumque voluptas ratione, repellat dolores eius."
+},{
+	"id": "refrigerator",
+	"productName": "Refrigerator",
+	"photo": "R",
+	"price": 15000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laudantium cum, officia voluptate alias iste quam. Recusandae quasi magnam non quisquam porro nulla quaerat a, dolores voluptates? Et odio, tempora."
+},{
+	"id": "washing_machine",
+	"productName": "Washing machine",
+	"photo": "W",
+	"price": 4400,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptatibus, enim suscipit dolores repellendus, quod quo quia expedita quis alias assumenda excepturi! Architecto neque dolorem, ab qui iusto earum voluptatem."
+},{
+	"id": "cooker",
+	"productName": "Cooker",
+	"photo": "K",
+	"price": 3700,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam deleniti fugit beatae, eius vero nisi vitae? Est ex saepe, incidunt ullam ipsum iusto aliquam eligendi. Repudiandae tempore voluptas molestiae iste."
+},{
+	"id": "vacuum_cleaner",
+	"productName": "Vacuum cleaner",
+	"photo": "V",
+	"price": 2700,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum aut incidunt blanditiis excepturi fugiat corporis, voluptate laborum modi? Porro ut, quidem deleniti exercitationem quo, esse optio harum provident labore asperiores!"
+},{
+	"id": "iron",
+	"productName": "Iron",
+	"photo": "I",
+	"price": 1000,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab repellendus incidunt voluptatem eveniet pariatur dolor. Totam, facere dolor sapiente, id voluptas necessitatibus rem consequatur tempore, cumque tenetur laboriosam expedita mollitia."
+}]

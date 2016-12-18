@@ -1,0 +1,10 @@
+.cart td {
+	width: 25%;
+	vertical-align: middle !important;
+}
+
+.cart .total {
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}

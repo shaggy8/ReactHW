@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dynamic HelloWorld</title>
+		<script src="https://npmcdn.com/react@15.3.0/dist/react.min.js"></script>
+		<script src="https://npmcdn.com/react-dom@15.3.0/dist/react-dom.min.js"></script>
+		<script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+	</head>
+	<body>
+		<div class="hello"></div>
+		<script type="text/babel">
+
+			var Hello = React.createClass({
+				getInitialState: function () {
+					return {
+						guest: 'stranger'
+					}
+				},
+				inputHandler: function (e) {
+					this.setState({
+						guest: e.target.value
+					})
+				},
+				render: function () {
+					return <section>
+							<input type="text" onChange={this.inputHandler} />
+							<h1>Hello, {this.state.guest ? this.state.guest : 'stranger'}!</h1>
+					</section>
+				}
+			});
+
+			ReactDOM.render(
+				<Hello />,
+				document.getElementsByClassName('hello')[0]
+			);
+		</script>
+	</body>
+</html>

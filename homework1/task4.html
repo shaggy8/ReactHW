@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link href="../Libraries/bootstrap.css" rel="stylesheet" />
+		<link href="../Libraries/bootstrap-theme.css" rel="stylesheet" />
+		<style>
+		body {
+			padding: 50px;
+		}
+
+		.inline-div {
+			display: inline-block;
+		}
+		</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+	</head>
+	<body>
+		<section></section>
+		<script type="text/babel">
+			var Result = React.createClass({
+				getInitialState: function () {
+					return {
+						result: '…'
+					}
+				},
+				changeNumber: function (e) {
+					var target = e.target;
+					var value = target.value;
+					var id = target.id;
+
+					if (isNaN(value)) {
+						this.setState({
+							result: 'Entered symbol is not a number!'
+						});
+					} else {
+						this.setState({
+							result: '…'
+						});
+					}
+					this[id] = +value;
+				},
+				showResult: function (e) {
+					e.preventDefault();
+
+					if (isNaN(this.a) || isNaN(this.b)) {
+						this.setState({
+							result: 'One of the arguments is not a number!'
+						});
+
+					} else {
+						switch (e.target.innerHTML) {
+							case '+':
+								this.setState({
+									result: this.a + this.b
+								});
+								break;
+							case '-':
+								this.setState({
+									result: this.a - this.b
+								});
+								break;
+							case '*':
+								this.setState({
+									result: this.a * this.b
+								});
+								break;
+							case '/':
+								this.setState({
+									result: this.a / this.b
+								});
+							}
+						}
+				},
+				render: function () {
+					return <div>
+				    <form className="form-inline">
+				        <input onChange={this.changeNumber} id="a" className="form-control" type="text" />
+				        <input onChange={this.changeNumber} id="b" className="form-control" type="text" />
+				        <div className="inline-div">
+				            <button onClick={this.showResult} className="btn btn-default">+</button>
+				            <button onClick={this.showResult} className="btn btn-default">-</button>
+										<button onClick={this.showResult} className="btn btn-default">*</button>
+				            <button onClick={this.showResult} className="btn btn-default">/</button>
+				        </div>
+				    </form>
+				    <h1>{this.state.result}</h1>
+					</div>
+				}
+			});
+
+			ReactDOM.render(
+				<Result />,
+				document.getElementsByTagName('section')[0]
+			);
+		</script>
+
+	</body>
+</html>

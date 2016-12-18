@@ -1,0 +1,28 @@
+#content {
+	width: 70%;
+	margin: 10px auto;
+}
+
+.app-input {
+	margin-right: 5%;
+}
+
+.app-input1 {
+	width: 40%;
+}
+
+.app-input2 {
+	width: 20%;
+}
+
+.app-switch {
+	margin-right: calc(10% - 56px);
+	width: 20%;
+}
+
+.app-button {
+}
+
+.app-table {
+	width: 100%;
+}

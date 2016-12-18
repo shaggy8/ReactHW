@@ -1,0 +1,22 @@
+.product-page {
+	margin: 10px;
+	padding: 15px;
+}
+
+.product-page .letter-photo {
+	float: left;
+	margin-right: 35px;
+	width: 300px;
+	border: 1px solid #ccc;
+	font-size: 300px;
+}
+
+.product-page .price {
+	margin: 50px 30px 25px;
+	font-size: 50px;
+	color: grey;
+}
+
+.product-page .description {
+	margin-top: 80px;
+}

@@ -1,0 +1,28 @@
+a {
+	color: white;
+}
+
+a:focus, a:hover {
+	color: lightgrey;
+}
+
+button.btn:focus {
+	outline: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: black;
+}
+
+main {
+	padding: 65px 25px;
+}
+
+.row {
+	margin: 0;
+}

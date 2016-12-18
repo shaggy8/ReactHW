@@ -1,0 +1,15 @@
+.articles {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.search-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.articles-list {
+  padding: 0;
+  width: 100%;
+}
